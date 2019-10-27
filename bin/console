@@ -1,0 +1,12 @@
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use App\AppKernel;
+
+$appKernel = (new AppKernel())->boot();
+$container = $appKernel->getContainer();
+$application = new Application();
+$application->add($container->get('weatherCommand'));
+$application->run();

@@ -1,0 +1,25 @@
+{
+    "name": "roshdy/weather",
+    "authors": [
+        {
+            "name": "Rochdy",
+            "email": "le.roshdy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "symfony/dependency-injection": "^4.3",
+        "symfony/console": "^4.3",
+        "symfony/dotenv": "^4.3",
+        "guzzlehttp/guzzle": "^6.4",
+        "ext-json": "*",
+        "phpunit/phpunit": "^7.5"
+    }
+}
