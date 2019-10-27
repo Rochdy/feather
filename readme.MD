@@ -22,5 +22,5 @@
 ## Used Packages
 - ```symfony/console```: Creating command line app
 - ```symfony/dependency-injection```: DI
-- ```symfony/dotenv```: Manage .env file throw the app
-- ```phpunit/phpunit```: As testing framework
+- ```symfony/dotenv```: Manage the .env file
+- ```phpunit/phpunit```: As a testing framework
